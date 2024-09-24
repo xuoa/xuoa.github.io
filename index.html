@@ -74,7 +74,7 @@
             });
             if (shortUrlData) {
                 // Short URL already exists, return existing short code
-                return `https://storbukas.github.io/url-shortener/${shortUrlData.id}`;
+                return `https://xuoa.github.io/xuoa.github.io/${shortUrlData.id}`;
             } else {
                 // Generate a new short code and store in database
                 const shortCode = generateShortCode(longUrl);
@@ -88,7 +88,7 @@
                         reject(addRequest.error);
                     };
                 });
-                return `https://storbukas.github.io/url-shortener/${shortCode}`;
+                return `https://xuoa.github.io/xuoa.github.io/${shortCode}`;
             }
         };
 
